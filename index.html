@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>微厅首页</title>
+    <script>
+        (function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=100*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+
+            
+        })(window);
+    </script>
+</head>
+<body>
+    <!-- 页面html代码开始 -->
+    <div class="index-wrap">
+        <div class="content">
+            <a href="">
+                <img src="images/img_02.jpg" alt="宽带免费用">
+            </a>
+        </div>
+        <div class="content content_02">
+            <div class="item left">
+                <a href="">
+                    <img src="images/img_04.jpg" alt="可选包加量不加价">
+                </a>
+            </div>
+            <div class="item right">
+                <a href="">
+                    <img src="images/img_06.jpg" alt="客户端下载">
+                </a>
+                <a href="">
+                    <img src="images/img_09.jpg" alt="云世界">
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <a href="">
+                <img src="images/img_12.jpg" alt="任我看加量不加价">
+            </a>
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+    <script src="js/zepto.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
